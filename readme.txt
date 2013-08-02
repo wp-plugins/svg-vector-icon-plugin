@@ -66,7 +66,7 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 * Original Release
 
 == Upgrade Notice ==
-
+
 = 1.0 =
 Original release - July 20th, 2013.
 
