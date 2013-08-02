@@ -1,4 +1,4 @@
-=== WP SVG Icon Set 1 ===
+=== WordPress Icons (SVG) ===
 Contributors: eherman24
 Donate link: http://evan-herman.com/
 Tags: svg, icon, icons, set1, evan, herman
