@@ -35,6 +35,13 @@ these any where in your themes.
 *Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to rate
 and review it, as this will only make future iterations of it better.*
 
+Special Thanks Goes To: 
+<a href="http://icomoon.io/">Icomoon</a> for an amazing base set of free icon's for use, many in this plugin.
+<a href="http://www.alessioatzeni.com/">Alessio Atzeni</a> for the inclusion of a few 'Metoicons' icons in this plugin.
+<a href="http://somerandomdude.com/">PJ Onori</a> for the inclusion of a few 'Iconic' icons in this plugin.
+and of course
+<a href="http://ma.tt/">Matt Mullenweg</a> for everything he does for the WordPress community. Without him none of this would be possible.
+
 == Installation ==
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -80,10 +87,9 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 
 == Screenshots ==
 
-1. Main plugin screen. Selected icon, preview and provided code can be seen.
-2. Some more icons.
-3. Main plugin screen with a different icon selected.
-4. Social networking icons, mail icons etc.
+1. Main plugin screen. Pacman icon selected, generated code visible.
+2. Some more icons included in this plugin.
+3. All included icons in the icon selection screen in the dashboard.
 
 == Changelog ==
 = 1.1 =
