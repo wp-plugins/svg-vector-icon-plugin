@@ -131,6 +131,7 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 1. Main plugin screen. Pacman icon selected, generated code visible.
 2. Some more icons included in this plugin.
 3. All included icons in the icon selection screen in the dashboard.
+4. The new expansion section, with the new linked in rounded icon
 
 == Changelog ==
 = 1.3 =
