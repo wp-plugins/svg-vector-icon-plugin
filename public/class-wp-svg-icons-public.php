@@ -55,7 +55,7 @@ class WP_SVG_Icons_Public {
 	
 		// if the user has opted to enqueue the default icon pack
 		// load it up on the front end
-		if ( get_option( 'wp_svg_icons_enqueue_defualt_icon_pack' ) == '1' ) {
+		if ( get_option( 'wp_svg_icons_enqueue_defualt_icon_pack' , '1' ) == '1' ) {
 			// enqueue default font icon pack, if setting dictates so
 			wp_enqueue_style( 'default-icon-styles' , plugin_dir_url( __FILE__ ) . '../admin/css/wordpress-svg-icon-plugin-style.min.css' );
 		}
