@@ -30,16 +30,6 @@ Utilize the newly implemented shortcode to prevent icons from being stripped bet
 
 http://www.youtube.com/watch?v=hXUJjQb82WY
 
-**How To:**
-
-1. Visit <a href="http://icomoon.io/app/#/select">IcoMoon</a> and begin selecting icons you want to use. 
-1. Import icomoon icons from the library
-1. select which icons you want to include in your pack
-1. Click 'Font' at the bottom of the browser window
-1. Click 'Preferences' and input a font-name and a customized prefix (must end in - for best results)
-1. Click 'Download'
-1. Import the .zip right into the plugin and start using your fonts! No coding required!
-
 **Consider Going Pro For Additional Features!**
 
 ><strong>Pro Features</strong>
@@ -75,12 +65,22 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 == Installation ==
 
+<strong>Installation</strong>
 1. Upload `wordpress-svg-icons-plugin.zip` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to the 'WP SVG Icon' plugin page in the dashboard
 4. Click on which icon you would like to use
 5. A preview of the icon will then appear in the preview box at the top. You can either copy the generated shortcode, or click on 'Insert Icon' (if on the post or page edit screens)
 6. Keep in mind, you can also use the shortcode in widgets or anywhere else on your site. If the shortcode isn't suitable for your needs, consider using the generated HTML instead.
+
+<strong>Custom Pack Installation</strong>
+1. Visit <a href="http://icomoon.io/app/#/select">IcoMoon</a> and begin selecting icons you want to use. 
+2. Import icomoon icons from the library
+3. select which icons you want to include in your pack
+4. Click 'Font' at the bottom of the browser window
+5. Click 'Preferences' and input a font-name and a customized prefix (must end in - for best results)
+6. Click 'Download'
+7. Import the .zip right into the plugin and start using your fonts! No coding required!
 
 == Frequently Asked Questions ==
 
