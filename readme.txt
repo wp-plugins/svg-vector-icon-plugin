@@ -13,6 +13,7 @@ Quickly and effortlessly enable to 492 beautifully designed SVG font icons, avai
 == Description ==
 
 ><strong>Features</strong>
+
 >- Over 490 icons included
 >- Create and upload your own custom icons using the custom icon importer
 >- Download and import your own custom icon build from <a href="http://icomoon.io/app/#/select">IcoMoon</a>
@@ -33,6 +34,7 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 **Consider Going Pro For Additional Features!**
 
 ><strong>Pro Features</strong>
+
 >- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
 >- Add icons to menu items directly from within the menu edit screen
 >- Premium support for any troubles you may run into, or the times you'd like to achieve something more custom
@@ -66,6 +68,7 @@ web fonts on to a new server every time. With this plugin its one click and you'
 == Installation ==
 
 <strong>Installation</strong>
+
 1. Upload `wordpress-svg-icons-plugin.zip` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to the 'WP SVG Icon' plugin page in the dashboard
@@ -73,7 +76,10 @@ web fonts on to a new server every time. With this plugin its one click and you'
 5. A preview of the icon will then appear in the preview box at the top. You can either copy the generated shortcode, or click on 'Insert Icon' (if on the post or page edit screens)
 6. Keep in mind, you can also use the shortcode in widgets or anywhere else on your site. If the shortcode isn't suitable for your needs, consider using the generated HTML instead.
 
+<hr />
+
 <strong>Custom Pack Installation</strong>
+
 1. Visit <a href="http://icomoon.io/app/#/select">IcoMoon</a> and begin selecting icons you want to use. 
 2. Import icomoon icons from the library
 3. select which icons you want to include in your pack
