@@ -13,7 +13,6 @@ Quickly and effortlessly enable to 492 beautifully designed SVG font icons, avai
 == Description ==
 
 ><strong>Features</strong>
-
 >- Over 490 icons included
 >- Create and upload your own custom icons using the custom icon importer
 >- Download and import your own custom icon build from <a href="http://icomoon.io/app/#/select">IcoMoon</a>
@@ -43,20 +42,16 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 
 **Consider Going Pro For Additional Features!**
 
-<blockquote>
+><strong>Pro Features</strong>
+>- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
+>- Add icons to menu items directly from within the menu edit screen
+>- Premium support for any troubles you may run into, or the times you'd like to achieve something more custom
+>- Built in widget support for *all* icons
+>- No need to write code or adjust shortcode parameters manually in the pro version
+>- Continuously iterated on and under development
 
-<strong>Pro Features</strong>
+><a href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" title="Upgrade Now!">Get the premium version now!</a>
 
-- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
-- Add icons to menu items directly from within the menu edit screen
-- Premium support for any troubles you may run into, or the times you'd like to achieve something more custom
-- Built in widget support for *all* icons
-- No need to write code or adjust shortcode parameters manually in the pro version
-- Continuously iterated on and under development
-
-<a href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" title="Upgrade Now!">Get the premium version now!</a>
-
-</blockquote>
 
 **Demo Page**
 
