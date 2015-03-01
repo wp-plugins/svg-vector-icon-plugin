@@ -12,18 +12,14 @@ Quickly and effortlessly enable to 492 beautifully designed SVG font icons, avai
 
 == Description ==
 
-<blockquote>
+><strong>Features</strong>
 
-<strong>Features</strong>
-
-- Over 490 icons included
-- Create and upload your own custom icons using the custom icon importer
-- Download and import your own custom icon build from <a href="http://icomoon.io/app/#/select">IcoMoon</a>
-- Insert Icons Directly Into Posts/Pages/Sidebars
-- No need to write a single line of code
-- Actively under development
-
-</blockquote>
+>- Over 490 icons included
+>- Create and upload your own custom icons using the custom icon importer
+>- Download and import your own custom icon build from <a href="http://icomoon.io/app/#/select">IcoMoon</a>
+>- Insert Icons Directly Into Posts/Pages/Sidebars
+>- No need to write a single line of code
+>- Actively under development
 
 **New In v3.0 : Shortcode Support**
 
