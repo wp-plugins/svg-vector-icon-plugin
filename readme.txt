@@ -8,7 +8,7 @@ Stable tag: 3.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Quickly and effortlessly enable to 492 beautifully designed SVG font icons, available on the frontend and backend of your site. 
+Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site. 
 
 == Description ==
 
