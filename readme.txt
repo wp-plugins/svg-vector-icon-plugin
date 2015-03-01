@@ -12,8 +12,6 @@ Quickly and effortlessly enable to 492 beautifully designed SVG font icons, avai
 
 == Description ==
 
-<blockquote>
-
 **Features**
 
 * Over 490 icons included
@@ -22,8 +20,6 @@ Quickly and effortlessly enable to 492 beautifully designed SVG font icons, avai
 * Insert Icons Directly Into Posts/Pages/Sidebars
 * No need to write a single line of code
 * Actively under development
-
-</blockquote>
 
 **New In v3.0 : Shortcode Support**
 
@@ -47,8 +43,6 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 
 **Consider Going Pro For Additional Features!**
 
-<blockquote>
-
 **Pro Features**
 
 * Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
@@ -59,8 +53,6 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 * Continuously iterated on and under development
 
 <a href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" title="Upgrade Now!">Get the premium version now!</a>
-
-</blockquote>
 
 **Demo Page**
 
