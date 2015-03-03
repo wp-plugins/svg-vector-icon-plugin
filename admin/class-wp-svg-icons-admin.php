@@ -76,7 +76,7 @@ class WP_SVG_Icons_Admin {
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wp-svg-icons-admin.min.css', array(), $this->version, 'all' );
 		
 		wp_enqueue_style( 'admin-icon-page-styles' , plugin_dir_url( __FILE__ ) . 'css/wordpress-svg-icon-plugin-style.min.css' );
-		wp_enqueue_style( 'default-icon-styles' , plugin_dir_url( __FILE__ ) . 'css/default-icon-styles.css' );
+		wp_enqueue_style( 'default-icon-styles' , plugin_dir_url( __FILE__ ) . 'css/default-icon-styles.min.css' );
 	
 	}
 	
