@@ -8,6 +8,12 @@
 	display: none;
 }
 
+#wp-svg-nav-tab-wrapper {
+	display: block;
+	float: left;
+	width: 95%;
+}
+
 .toplevel_page_wp-svg-icons .wrap, .svg-custom-upload-wrap {
 	margin-top: 2.5em !important;
 }
