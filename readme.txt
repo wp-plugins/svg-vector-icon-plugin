@@ -341,7 +341,7 @@ Adding custom classes to your icon allows you to more easily target singular ico
 
 *All Shortcode Parameters:*
 
-* 'icon' - the name of the icon you want this shortcode to generate
+* icon - the name of the icon you want this shortcode to generate
 * wrap - set the element your icon will be housed in (div, span, h1, h2 etc.)
 * class - assign additional classes to your icon. awesome for targeting your icons more easily.
 * size - alter the size of the icon regardless of the container (px, em, rem, %)
