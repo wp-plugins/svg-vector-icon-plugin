@@ -37,6 +37,8 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 
 >- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
 >- Add icons to menu items directly from within the menu edit screen
+>- Animate your icons using smooth CSS3 Animations
+>- Easily generate an icon container to use on your landing pages (with sweet hover effects)
 >- Premium support for any troubles you may run into, or the times you'd like to achieve something more custom
 >- Built in widget support for *all* icons
 >- No need to write code or adjust shortcode parameters manually in the pro version
@@ -115,6 +117,19 @@ The pro version comes with a pretty sweet icon customizer. Not only does this al
 The pro version also comes with custom nav walkers implemented, to easily add icons to any of your menu items. This is a neat little feature which allows you to select an icon from a dropdown to assign to your menu directly from within the menu edit screen.
 
 If you buy the pro version you will also receive support and updates for one year, for those times you need to make something out of the ordinary happen.
+
+><strong>Pro Features</strong>
+
+>- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
+>- Add icons to menu items directly from within the menu edit screen
+>- Animate your icons using smooth CSS3 Animations
+>- Easily generate an icon container to use on your landing pages (with sweet hover effects)
+>- Premium support for any troubles you may run into, or the times you'd like to achieve something more custom
+>- Built in widget support for *all* icons
+>- No need to write code or adjust shortcode parameters manually in the pro version
+>- Continuously iterated on and under development
+
+><a href="http://www.evan-herman.com/wp-svg-icons-pro/" title="Upgrade Now!">Get the premium version now!</a>
 
 == Screenshots ==
 
@@ -326,15 +341,15 @@ Adding custom classes to your icon allows you to more easily target singular ico
 
 *All Shortcode Parameters:*
 
-*'icon' => '',
-*wrap - set the element your icon will be housed in (div, span, h1, h2 etc.)
-*class - assign additional classes to your icon. awesome for targeting your icons more easily.
-*size - alter the size of the icon regardless of the container (px, em, rem, %)
-*icon - assign a default icon
-*custom_icon - assign a custom icon
-*link - link the icon to a page or post
-*new_tab - open the link in a new tab
-*color - alter the color of the icon (hex, rgb, rgba)
+* 'icon' - the name of the icon you want this shortcode to generate
+* wrap - set the element your icon will be housed in (div, span, h1, h2 etc.)
+* class - assign additional classes to your icon. awesome for targeting your icons more easily.
+* size - alter the size of the icon regardless of the container (px, em, rem, %)
+* icon - assign a default icon
+* custom_icon - assign a custom icon
+* link - link the icon to a page or post
+* new_tab - open the link in a new tab
+* color - alter the color of the icon (hex, rgb, rgba)
 
 **Icomoon Icon Font Importer**
 
