@@ -36,6 +36,7 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 ><strong>Pro Features</strong>
 
 >- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
+>- Unlimited number of custom icons allowed!
 >- Add icons to menu items directly from within the menu edit screen
 >- Animate your icons using smooth CSS3 Animations
 >- Easily generate an icon container to use on your landing pages (with sweet hover effects)
@@ -364,6 +365,8 @@ Adding custom classes to your icon allows you to more easily target singular ico
 * color - alter the color of the icon (hex, rgb, rgba)
 
 **Icomoon Icon Font Importer**
+
+*Note:* The number of custom icons allowed in the free version is limited to 10 icons. If you require more than 10 custom icons on your site, please <a href="http://www.evan-herman.com/wp-svg-icons-pro/" title="Upgrade Now!">upgrade to the pro version</a> to allow for an un-restricted number of icons to be used on your site.
 
 http://www.youtube.com/watch?v=8bRny8gW2_k
 
