@@ -4,7 +4,7 @@ Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%2
 Tags: wordpress, bootstrap, font icon, font awesome more, fontstrap, icons, ui, ux, design, free, boot, strap, menus, menu, custom, nav, navigation, navicons, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip, font, icon, svg font icon, fonticon, iconfont, fontello, css3, svg animation, free, genericons, genericon, icon stack, stack, icons stack, menu icons, menu, customizable, customize, customizer, bootstrap, dropdown, navigation, scale, vector, icons
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 3.1.5
+Stable tag: 3.1.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -142,6 +142,9 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Changelog ==
 
+= 3.1.6 - April 9th, 2015 =
+* Free version is now limited to 10 custom icons. Pro version allows for unlimited number of icons. ( Any sites using more than 10 icons prior to this update will continue to work )
+
 = 3.1.5 - March 26th, 2015 =
 * Fixed minor CSS issue. Some themes were overriding the font family attribute on our icons, so we've added an !important tag to our styles.
 
@@ -224,6 +227,9 @@ If you buy the pro version you will also receive support and updates for one yea
 * Original Release - July 20th, 2013
 
 == Upgrade Notice ==
+
+= 3.1.6 - April 9th, 2015 =
+* Free version is now limited to 10 custom icons. Pro version allows for unlimited number of icons. ( Any sites using more than 10 icons prior to this update will continue to work )
 
 = 3.1.5 - March 26th, 2015 =
 * Fixed minor CSS issue. Some themes were overriding the font family attribute on our icons, so we've added an !important tag to our styles.
