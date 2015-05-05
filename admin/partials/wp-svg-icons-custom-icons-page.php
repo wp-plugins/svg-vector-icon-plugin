@@ -40,7 +40,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 						if( $file_extension != 'zip' ) {
 							?>
 									<style>
-										#social-icons { display: none; }
+										#social-icons, #review-wp-svg-icons { display: none; }
 									</style>
 									<div class="error">
 										<p><?php _e( "There was a problem importing the file. Ensure that you are uploading a .zip file.", "wp-svg-icons" ); ?></p>
@@ -56,6 +56,10 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 						
 						// move the file to the custom upload path set above on line 63
 						$movefile = wp_handle_upload( $uploadedfile, $upload_overrides );
+						if( is_wp_error( $movefile ) ) {
+							$error_string = $movefile->get_error_message();
+							wp_die( '<div id="message" class="error"><p>' . $error_string . '</p></div>' );
+						}
 					
 						// if upload was successful
 						if ( $movefile ) {	
@@ -79,15 +83,30 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 							$fileNameNoSpaces = str_replace(' ', '-',$uploadedfile['name']);
 							
 							$unzipfile = unzip_file( $dest_path.'/'.$fileNameNoSpaces, $dest_path );
+							if( is_wp_error( $unzipfile ) ) {
+								?>
+								<style>
+									#social-icons, #review-wp-svg-icons { display: none; }
+								</style>
+								<?php
+								$error_string = $unzipfile->get_error_message();
+								if( $error_string = 'Incompatible Archive.' ) {
+									if (function_exists('is_multisite') && is_multisite()) {
+										$error_string .= " This looks like a multi-site install. You'll want to head into the <a href='" . admin_url( 'network/settings.php#upload_filetypes' ) . "' title='Network Admin Settings'>network settings</a> page and add 'zip' to the list of acceptable upload file types.";
+									}
+								}
+								wp_die( '<div id="message" class="error"><p>' . $error_string . '</p></div>' );
+							}
 							
 							if ( $unzipfile ) {
 								
 								// check for the json file
 								// to ensure we've got a icomoon .zip
-								if( !file_exists( $dest_path.'/'.'selection.json' ) ) {
+								if( !file_exists( $dest_path.'/'.'selection.json' ) ) { 
+									echo $dest_path.'/'.'selection.json';
 										?>
 											<style>
-												#social-icons { display: none; }
+												#social-icons, #review-wp-svg-icons { display: none; }
 											</style>
 											<div class="error">
 												<p><?php _e( "There was a problem with the file you uploaded. Make sure that you're uploading a .zip file from","wp-svg-icons"); echo " <a href='https://icomoon.io/app/#/select' target='_blank'>icomoon</a>. ";  _e( "If you're still having issues, please contact support.", "wp-svg-icons" ); ?></p>
@@ -198,7 +217,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 				
 				// check if the pack has loaded
 				run_interval = setInterval(function() {
-					if( jQuery( '.current-font-pack' ).children().length <= 1 ) {
+					if( jQuery( '.current-font-pack' ).children().length <= 10 ) {
 						return;
 						// re-run the interval
 					} else {
@@ -327,7 +346,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 			</p>
 		</form>
 		
-		<section class="ten-icon-limit-reached" style="display:block;margin:2em 0;text-align:center;font-size:15px;color:rgb(238, 110, 81);padding:10px;">
+		<section class="ten-icon-limit-reached" style="display:none;margin:2em 0;text-align:center;font-size:15px;color:rgb(238, 110, 81);padding:10px;">
 			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="http://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
 		</section>
 		
