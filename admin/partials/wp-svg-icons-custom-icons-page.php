@@ -19,7 +19,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 							<a href="https://profiles.wordpress.org/eherman24#content-plugins"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/wordpress-icon.png"></a>
 							<a href="http://twitter.com/evanmherman"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/twitter.png"></a>
 							<a href="https://www.linkedin.com/profile/view?id=46246110"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/linkedin.png"></a>
-							<a href="http://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
+							<a href="https://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
 					</div>
 				<?php } ?>
 				
@@ -47,7 +47,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 										<p><?php _e( "There was a problem with the file you uploaded. Make sure that you're uploading a .zip file from","wp-svg-icons"); echo " <a href='https://icomoon.io/app/#/select' target='_blank'>icomoon</a>. ";  _e( "If you're still having issues, please contact support.", "wp-svg-icons" ); ?></p>
 										<p>
 											<a class="button-secondary" href="<?php echo admin_url(); ?>/admin.php?page=wp-svg-icons-custom-set"><?php _e( 'Try again' , 'wp-svg-icons' ); ?></a>
-											<a class="button-secondary" href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" target="_blank"><?php _e( 'Support' , 'wp-svg-icons' ); ?></a>
+											<a class="button-secondary" href="https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" target="_blank"><?php _e( 'Support' , 'wp-svg-icons' ); ?></a>
 										</p>
 									</div>
 							<?php
@@ -112,7 +112,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 												<p><?php _e( "There was a problem with the file you uploaded. Make sure that you're uploading a .zip file from","wp-svg-icons"); echo " <a href='https://icomoon.io/app/#/select' target='_blank'>icomoon</a>. ";  _e( "If you're still having issues, please contact support.", "wp-svg-icons" ); ?></p>
 												<p>
 													<a class="button-secondary" href="<?php echo admin_url(); ?>/admin.php?page=wp-svg-icons-custom-set"><?php _e( 'Try again' , 'wp-svg-icons' ); ?></a>
-													<a class="button-secondary" href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" target="_blank"><?php _e( 'Support' , 'wp-svg-icons' ); ?></a>
+													<a class="button-secondary" href="https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" target="_blank"><?php _e( 'Support' , 'wp-svg-icons' ); ?></a>
 												</p>
 											</div>
 									<?php
@@ -198,7 +198,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		<h1 class="wp-svg-title"><span style="color:#FF8000;">WP SVG Icons</span> | <?php _e( 'Import a Custom Icon Pack' , 'wp-svg-icons' ); ?></h1>
 		
 		<p><?php _e( 'Welcome to the highly requested Custom Font Pack section! Use the importer below to import custom icon packs downloaded from' , 'wp-svg-icons' ); ?> <a href="http://icomoon.io/app/#/select" target="_blank">IcoMoon</a>.</p>
-		<p><?php _e( 'For a step-by-step tutorial on how to download and install a custom icon pack visit the' , 'wp-svg-icons' ); ?> <a href="http://www.evan-herman.com/wp-svg-icons/#customPackUploader" target="_blank"><?php _e( 'plugin site' , 'wp-svg-icons' ); ?></a>.</p>
+		<p><?php _e( 'For a step-by-step tutorial on how to download and install a custom icon pack visit the' , 'wp-svg-icons' ); ?> <a href="https://www.evan-herman.com/wp-svg-icons/#customPackUploader" target="_blank"><?php _e( 'plugin site' , 'wp-svg-icons' ); ?></a>.</p>
 		<p><span style="font-size:11px; color: #EE3B3B;"><?php _e( 'Note:' , 'wp-svg-icons' ); ?></span> <?php _e( 'Only one icon pack may be active at a time.' , 'wp-svg-icons' ); ?></p>
 		<p><span style="font-size:11px; color: #EE3B3B;"><?php _e( 'Note:' , 'wp-svg-icons' ); ?></span> <?php _e( 'If you install a new icon pack, and your old icons appear you may need to empty your browsers cache.' , 'wp-svg-icons' ); ?></p>
 		
@@ -347,7 +347,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		</form>
 		
 		<section class="ten-icon-limit-reached" style="display:none;margin:2em 0;text-align:center;font-size:15px;color:rgb(238, 110, 81);padding:10px;">
-			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="http://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
+			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="https://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
 		</section>
 		
 		<div class="current-font-pack">
@@ -368,7 +368,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		?>
 		
 		<footer style="padding-left:0;margin-left:0; width: 100%;">
-			<p style="float:left;"><?php _e( 'Plugin Created By' , 'wp-svg-icons' ); ?> <a style="color:#B35047;" href="http://www.Evan-Herman.com" target="_blank">Evan Herman</a></p><p style="float:right;"><?php echo $fontPackLocationString.'<b>'.$dest_path.'</b>'; ?></p>
+			<p style="float:left;"><?php _e( 'Plugin Created By' , 'wp-svg-icons' ); ?> <a style="color:#B35047;" href="https://www.evan-herman.com" target="_blank">Evan Herman</a></p><p style="float:right;"><?php echo $fontPackLocationString.'<b>'.$dest_path.'</b>'; ?></p>
 		</footer>
 	</div>
 <?php
