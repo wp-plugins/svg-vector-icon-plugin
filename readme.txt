@@ -29,7 +29,7 @@ Utilize the newly implemented shortcode to prevent icons from being stripped bet
 
 **Basic Plugin Demo**
 
-http://www.youtube.com/watch?v=hXUJjQb82WY
+https://www.youtube.com/watch?v=ZQSrZvKDtQ0
 
 **Consider Going Pro For Additional Features!**
 
