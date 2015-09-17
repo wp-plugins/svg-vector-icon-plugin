@@ -29,6 +29,18 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 				
 					if ( isset( $_FILES['custom_icon_pack'] ) ) {
 						
+						/* 
+							Validate our nonce for security reasons
+							@since 3.1.8.2
+						*/
+						if ( ! empty( $_POST['wp_svg_icons_upload_validation'] ) ) {
+							if( ! check_admin_referer( 'validate_wp_svg_icons', 'wp_svg_icons_upload_validation' ) ) {
+								wp_die( __( 'Sorry, your nonce did not verify. Please try again.', 'wp-svg-icons' ) );
+								exit;
+							}
+						}
+
+   
 						$uploadedfile = $_FILES['custom_icon_pack'];
 						$upload_overrides = array( 'test_form' => false );
 						
@@ -295,6 +307,10 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		<!-- Handling Custom Font Pack Uploads -->
 		<!-- currently uploads to Uploads > WP SVG Icons > Custom Pack -->
 		<form id="wp_svg_icons_upload_custom_pack_form" enctype="multipart/form-data" action="" method="POST">
+			<?php
+				/* Security Nonces */
+				wp_nonce_field( 'validate_wp_svg_icons', 'wp_svg_icons_upload_validation' );
+			?>
 			<p id="async-upload-wrap" style="margin-bottom:0;">
 				<label for="async-upload"><?php _e( 'Import a Custom Font Pack' , 'wp-svg-icons' ); ?> :</label><br />
 				<input type="file" id="wp_svg_custom_pack_field" name="custom_icon_pack" required="required"> 

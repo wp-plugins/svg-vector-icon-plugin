@@ -1,4 +1,8 @@
 <?php
+
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 /**
  * Define the internationalization functionality.
  *

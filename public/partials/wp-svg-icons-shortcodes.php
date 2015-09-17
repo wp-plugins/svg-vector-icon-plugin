@@ -1,5 +1,8 @@
 <?php
 
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 /**
  * Function to process our shortcode and render our WP SVG Icon
  * 

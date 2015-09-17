@@ -1,4 +1,8 @@
 <?php 
+
+	/* If the file is hit directly, abort... */
+	defined('ABSPATH') or die("Nice try....");
+
 	// enqueue our upgrade page script
 	wp_register_script( 'upgrade-page-script' , plugin_dir_url(__FILE__).'../js/upgrade-page-script.js' , array( 'jquery' ), 'all'  );
 	wp_enqueue_script( 'upgrade-page-script' );

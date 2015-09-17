@@ -3,6 +3,10 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 	// required for _e() to work inside of the modal
 	include_once( "../../../../../wp-load.php" ); 
 }
+
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 ?>
 <script>
 jQuery( document ).ready( function() {

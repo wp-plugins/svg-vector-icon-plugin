@@ -1,4 +1,8 @@
 <?php
+
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 /**
  * Register all actions and filters for the plugin.
  *

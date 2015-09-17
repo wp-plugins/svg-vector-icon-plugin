@@ -1,5 +1,8 @@
 <?php
 
+	/* If the file is hit directly, abort... */
+	defined('ABSPATH') or die("Nice try....");
+
 	// Create Menu Pages
 	// Create Sub Menu pages for Custom Icon Pack Uploads
 	function wordpress_svg_icons_plugin_add_menu_page() {
